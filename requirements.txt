@@ -1,0 +1,38 @@
+# ============================================================
+# Vietnamese Legal Assistant RAG System - Dependencies
+# ============================================================
+
+# --- Core Data & ML ---
+datasets>=2.19.0
+pandas>=2.2.0
+numpy>=1.26.0
+torch>=2.2.0
+sentence-transformers>=2.7.0
+
+# --- Vector Database ---
+pymilvus>=2.4.0
+psycopg2-binary>=2.9.0
+
+# --- Text Processing ---
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+underthesea>=6.8.0
+
+# --- LLM Integration ---
+google-generativeai>=0.5.0
+google-cloud-aiplatform>=1.49.0   # vertexai SDK (Vertex AI Gemini)
+google-auth>=2.29.0               # Application Default Credentials
+
+# --- Backend API ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# --- Frontend UI ---
+streamlit>=1.35.0
+requests>=2.31.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.0
